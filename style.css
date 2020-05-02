@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #000000;
+    background-color: #ffffff;
+
+    text-align: center;
+}
+
+h1 {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    font-family: Playfair Display, serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 47px;
+    letter-spacing: 1px;
+    margin-top: 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    align-items: center;
+    margin-top:46px;
+    margin-bottom: 47px;
+}
+
+
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    min-height: 464px;
+    min-width: 1140px;
+    background-color: #c4c4c4;
+    background-image: url("img/Hotel-11.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+article img {
+    margin-top: 46px
+}
+
+h2 {
+
+    flex-grow: 1;
+    font-size: 72px;
+    line-height: 84px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 32px;
+}
+
+article a {
+    color: #ffffff;
+}
+
+article p {
+   width: 456px;
+   margin-top: 139px;
+   margin-bottom: 48px;
+}
+
+h3 {display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+.reviews h3 {
+    margin-top: 44px;
+}
+
+.subscriptions h3 {
+    margin-top: 33px;
+    margin-bottom: 35px;
+    margin-left: 50px;
+}
+
+h4 {
+    font-family: Playfair Display, serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+    margin-bottom: 10px;
+}
+
+.reviews h4 {
+    margin-top: 20px;
+   text-align: left;
+
+}
+
+.subscriptions h4 {
+    margin-top: 24px;
+}
+
+.reviews-blocks {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    margin-top: 20px;
+
+}
+
+.reviews-item {
+    min-width: 370px;
+    margin-left: 29px;
+}
+
+.reviews-blocks p {
+    text-align: left;
+    margin-bottom: 51px;
+    width: 370px;
+}
+
+
+.subscriptions {
+    padding: 33px 0 36px 0;
+    background: radial-gradient(circle, #ffffff 60%, #F7F7F7 60%);
+}
+
+.subscriptions-cards {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+
+}
+.subscriptions-item {
+    width: 370px;
+    list-style: none;
+
+}
+
+ span {
+     text-align: center;
+     margin: 24px auto;
+     width: 100px;
+     height: 1px;
+     background-color: rgba(0,0,0, 0.2);
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: #FF7931;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    width: 170px;
+    height: 47px;
+    margin-top: 20px;
+}
+
+.button-image {
+margin-left: 7px;
+
+}
+
+.footer-menu a,
+b a{
+    color: #ffffff;
+}
+
+
+footer {
+    color: #FFFFFF;
+    background-color: #575757;
+    margin-top: 50px;
+}
+
+b { display: flex;
+    flex-grow: 1;
+    font-family: Playfair Display, serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    justify-content: center;
+    padding-top: 26px;
+}
+
+.footer-menu {
+    display: flex;
+    flex-grow: 1;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    margin-top: 32px;
+}
+
+ .footer-menu::after {
+    content: "";
+     margin-top: 46px;
+     width: 95%;
+    height: 1px;
+    background-color: #FFFFFF;
+    opacity: 0.4;
+}
+.footer-social {
+    display: flex;
+    flex-grow: 1;
+    list-style: none;
+    justify-content: center;
+    margin-top: 42px;
+}
+
+.social-button img {
+    background-color: #FFFFFF;
+    border: 12px solid #FFFFFF;
+    margin: 14px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover
+{
+    color: #ff7931;
+}
+
+.subscriptions a:hover
+{
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
